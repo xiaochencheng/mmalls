@@ -30,4 +30,6 @@ public interface UserMapper {
 
     int checkPassword(@Param("password")String password,@Param("userid")Integer userid);
 
+    int checkEmailByUserId(@Param("email")String email,@Param("userId")Integer userId);
+
 }
